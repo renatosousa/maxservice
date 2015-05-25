@@ -14,6 +14,6 @@ var http = require('http');
    } 
    response.end();
  });
- server.listen("/", function(){
+ server.listen("80", function(){
    console.log('Servidor http.');
 });
